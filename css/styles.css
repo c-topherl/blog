@@ -11,14 +11,43 @@ img {
 @media screen and (max-width: 550px) {
 	h1 {
 		margin-top: 20%;
+	}
+
+	#overlay div {
+		top: 5%;
 	}	
+
+	#overlay div h1 {
+		font-size: 16px;
+	}
+
+	#subscribe-button{
+		font-size: 10px;
+	}
+}
+
+@media screen and (max-width: 680px) {
+	#cta-button {
+		font-size: 10px;
+	}
 }
 
 @media screen and (min-width: 1000px) {
 	img {
 		display: inline;
 	}
+
+	#subscribe-button {
+		padding: 3%;
+		font-size: 28px;
+	}
+
+	#cta-button {
+		font-size: 16px;
+	}
+
 }
+
 
 #overlay {
 	position: fixed;
@@ -35,7 +64,7 @@ img {
 	position: fixed;
 	width: 30%;
 	height: 10%;
-	top: 40%;
+	top: 25%;
 	left: 35%;
 	text-align: center;
 	z-index: 999;
@@ -47,19 +76,20 @@ img {
 }
 
 .email-field {
-	height: 50%;
+	padding: 8% 2%;
 	border-radius: 5px;
 }
 
-#main-email {
-	width: 60%;
-	height: 40px;
+#cta-email {
+	padding: 4% 2%;
+}
+
+#cta-button {
+	width: 100%;
 }
 
 #subscribe-button {
 	width: 100%;
-	padding: 3%;
-	font-size: 28px;
 }
 
 .hidden {
@@ -77,4 +107,21 @@ body {
 	text-decoration: underline;
 	font-size: 16px;
 	color: lightblue;
+}
+
+#cta-body {
+	width: 100%;
+	background: #FFFFCC;
+	margin-bottom: 5%;
+	height: 8%;
+}
+
+#cta-content {
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-align: center;
+}
+
+.no-resize {
+	resize: none;
 }

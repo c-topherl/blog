@@ -165,7 +165,7 @@
 
 
         
-        
+        <!--
         <div class="col-xs-12 col-md-6">
         	<div class="fb-comments" data-href="http://www.chrislevine.net/train-to-reign/" data-numposts="5"></div>
         </div>
@@ -175,7 +175,7 @@
         	<input type="text" name="email" class="email-field" id="main-email" placeholder="Email address..." /> <br><br>
 			<a href="javascript:void(0)" onclick="subscribe(document.getElementById('main-email').value);" class="btn btn-primary btn-lg" style="width: 40%;">Subscribe</a>
         </div>
-
+  -->
       	
 		
 	
@@ -186,6 +186,30 @@
         </div>
 
     </div> <!-- /container -->
+
+    <div class="col-xs-12" id="cta-body">
+      <div id="cta-content">
+          <h3><em>Ready to incorporate fitness into your lifestyle?</em></h3>
+
+          <br><br>
+
+          <div class="col-xs-4">&nbsp;</div>
+          
+          <div class="col-xs-4">
+            <input type="text" class="form-control email-field" id="cta-email" placeholder="Email address..." />
+      
+          	<br>
+
+          	<a href="javascript:void(0)" onclick="subscribe(document.getElementById('cta-email').value);" class="btn btn-primary btn-lg" id="cta-button">I'm ready to Reign!</a>
+        
+          </div>
+
+          <div class="col-xs-4">&nbsp;</div>
+
+          <div class="col-xs-12">&nbsp;</div>
+
+      </div>
+    </div>
 
 
     <!-- Bootstrap core JavaScript-->
@@ -221,17 +245,17 @@
     </script>
     </body>
 
-    <div id="overlay" class="hidden">
-    <div>
+    <div id="overlay" class="text-center hidden">
+    <div class="text-center">
       <h1>Enter your email for <em>exclusive</em> diet and training tips!</h1>
       <br> 
       <input type="text" class="form-control email-field" id="email" placeholder="Email address..." />
       
       <br>
 
-      <a href="javascript:void(0)" onclick="subscribe(document.getElementById('email').value);" class="btn btn-primary btn-lg" id="subscribe-button">Teach me to get fit and strong!</a>
+      <a href="javascript:void(0)" onclick="subscribe(document.getElementById('email').value);" class="btn btn-primary btn-lg no-resize" id="subscribe-button">I'm ready to Reign!</a>
       <br><br><br>
-      <a href="javascript:void(0)" onclick="hideOverlay();" id="close-overlay-link"><em>No thanks, I've achieved all my goals.</em></a>
+      <a href="javascript:void(0)" onclick="hideOverlay();" id="close-overlay-link" class="no-resize"><em>No thanks, I've achieved all my goals.</em></a>
     </div>
   </div>
 </html>
