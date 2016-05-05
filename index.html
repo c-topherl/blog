@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="images/favicon.ico">
+
+    <title>Train To Reign</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap theme -->
+    <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+    	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; }
+  		/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+     	We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+	</style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+   <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+ 	<script src="http://code.jquery.com/ui/1.11.1/jquery-ui.min.js"></script>
+  </head>
+
+  <body role="document">
+
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="javascript:void(0)" onmouseover="loadOverlay();" >Train To Reign</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="javascript:void(0)" onclick="loadTemplate('home.html')">Home</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Training <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="javascript:void(0)" onclick="loadTemplate('workout-routine-1.html')">Building A Workout Routine Part 1: Choosing Your Split</a></li>
+                <li><a href="javascript:void(0)" onclick="loadTemplate('workout-routine-2.html')">Building A Workout Routine Part 2: Choosing Exercises</a></li>
+                <li><a href="javascript:void(0)" onclick="loadTemplate('workout-routine-3.html')">Building A Workout Routine Part 3: Sets and Reps</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="javascript:void(0)" onclick="loadTemplate('advanced-lifting.html')">Advanced Lifting Techniques</a></li>
+                <li><a href="javascript:void(0)" onclick="loadTemplate('cardio.html')">Should I Do Cardio?</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Nutrition <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="javascript:void(0)" onclick="loadTemplate('nutrition-plan.html')">Building A Nutrition Plan</a></li>
+                <li><a href="javascript:void(0)" onclick="loadTemplate('advanced-dieting.html')">Advanced Dieting Techniques</a></li>
+                <li><a href="javascript:void(0)" onclick="loadTemplate('intermittent-fasting.html')">Intermittent Fasting</a></li>
+              </ul>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">General <span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="javascript:void(0)" onclick="loadTemplate('tracking-progress.html')">Tracking Progress</a></li>
+                <li><a href="javascript:void(0)" onclick="loadTemplate('breaking-plateaus.html')">Breaking Plateaus</a></li>
+                <li><a href="javascript:void(0)" onclick="loadTemplate('vacation.html')">Training On Vacation</a></li>
+                <li><a href="javascript:void(0)" onclick="loadTemplate('alcohol.html')">Alcohol Guide</a></li>
+              </ul>
+            </li>
+            <!--
+            <li><a href="#">Blog</a></li>
+        -->
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
+
+    <!--
+    <div id="splash-screen" class="hidden"></div>
+        	<div id="sign-up" class="text-center hidden">
+        		<p>Sign up below!</p>
+        		<form role="form">
+					<div class="form-group">
+						<label for="email">Email</label>
+						<input type="text" name="email" id="email" />
+					</div>
+
+					<a href="javascript:void(0)" onclick="hideSplashScreen();" class="btn btn-primary btn-lg">Please send me insider tips!</a>
+					&nbsp;&nbsp;
+					<a href="javascript:void(0)" onclick="hideSplashScreen();" class="btn btn-default btn-lg">No thanks, I already know what I'm doing</a>
+				</form>
+			</div>
+	-->
+
+	<!--
+	<div class="modal" style="display:none;" id="modal">
+		<div class="modal-body">
+			<div class="container" data-em="modal-container">
+				<p>Test</p>
+			</div>
+		</div>
+	</div>
+-->
+
+
+
+    <div class="container theme-showcase" role="main">
+
+        
+
+        <div class="text-center" style="margin-top: 5%;">
+            <img src="images/main.jpg">
+        </div>
+
+        <div id="main-content">
+        	<div class="page-header">
+  				<h1>About Me</h1>
+			</div>
+
+			<div class="col-xs-12">
+  				<p>I've been interested in training strategies and the science behind them for years now. I wanted to find a way to achieve a desirable level of muscle and fitness, but without having it take over my life. Sure, I could <a href="http://www.bodybuilding.com/fun/dwayne-johnson-rock-hard-hercules-workout-and-diet-plan.html" target="_blank">work out like The Rock</a>, spending hours at the gym and eating thousands of calories worth of chicken and rice each day, but this isn't desirable or sustainable. I wanted it to look effortless. I wanted to fit fitness into my lifestyle, not have my lifestyle revolve around fitness.</p>
+
+  				<br>
+
+  				<p>I've spent countless hours pouring over fitness and nutrition articles. The problem is, there are so many opinions out there, I struggled to find something that worked for me. If you're like me, you've looked up workout tips and strategies online and tried a whole lot of them yourself without many, if any, results. <em>And that's frustrating</em>.</p>
+
+  				<br>
+
+  				<p>I feel as though I've finally narrowed down the strategies that <em>really work</em>. I've taken them all and compiled them here into a one-stop, end-all guide to achieving your health and fitness goals. I wanted to take all that research and training I did, bottle it up and provide it to the masses in one concise guide.</p>
+
+  				<br>
+  
+  				<p>Hope you enjoy, and I can't wait to hear the success stories.</p> 
+
+  				<p>-Chris Levine</p>
+
+			</div>
+
+        </div>
+
+        <div class="col-xs-12">
+            <p>&nbsp;</p>
+        </div>
+        <div class="col-xs-12">
+            <p>&nbsp;</p>
+        </div>
+        <div class="col-xs-12">
+            <p>&nbsp;</p>
+        </div>
+
+
+        
+        
+        <div class="col-xs-12 col-md-6">
+        	<div class="fb-comments" data-href="http://www.chrislevine.net/train-to-reign/" data-numposts="5"></div>
+        </div>
+
+        <div class="col-xs-12 col-md-6">
+        	<p style="font-size: 16px;" class="alert alert-info">For <em>exclusive</em> diet and training tips via email, sign up below!</p> 
+        	<input type="text" name="email" class="email-field" id="main-email" placeholder="Email address..." /> <br><br>
+			<a href="javascript:void(0)" onclick="subscribe(document.getElementById('main-email').value);" class="btn btn-primary btn-lg" style="width: 40%;">Subscribe</a>
+        </div>
+
+      	
+		
+	
+        
+
+        <div class="col-xs-12">
+            <p>&nbsp;</p>
+        </div>
+
+    </div> <!-- /container -->
+
+
+    <!-- Bootstrap core JavaScript-->
+    
+    <script src="js/bootstrap.min.js"></script>
+    <!--
+    <script src="../../assets/js/docs.min.js"></script>
+  -->
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/handlebars.js"></script>
+    <script src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=736530879765901"></script>
+    <script src="js/site.js"></script>
+
+    <script>
+      var loadTemplate = function(templateName){
+      		var req = new XMLHttpRequest();
+      		req.open("get", 'templates/' + templateName, true);
+
+      		req.onreadystatechange = function() {
+      			if (req.readyState == 4 && req.status == 200){
+      				var divText = req.response;
+    				var compiledTemplate = Handlebars.compile(req.responseText);
+    				var compiledHtml = compiledTemplate(null);
+    				$('#main-content').html(compiledHtml);
+      			}
+      		}
+
+      		req.send();
+
+      		return;
+      }
+    </script>
+    </body>
+
+    <div id="overlay" class="hidden">
+    <div>
+      <h1>Enter your email for <em>exclusive</em> diet and training tips!</h1>
+      <br> 
+      <input type="text" class="form-control email-field" id="email" placeholder="Email address..." />
+      
+      <br>
+
+      <a href="javascript:void(0)" onclick="subscribe(document.getElementById('email').value);" class="btn btn-primary btn-lg" id="subscribe-button">Teach me to get fit and strong!</a>
+      <br><br><br>
+      <a href="javascript:void(0)" onclick="hideOverlay();" id="close-overlay-link"><em>No thanks, I've achieved all my goals.</em></a>
+    </div>
+  </div>
+</html>
+        
