@@ -1,10 +1,10 @@
 var loadOverlay = function() {
-	document.getElementById('overlay').className = "text-center";
+	//document.getElementById('overlay').className = "text-center";
 	return;
 }
 
 var hideOverlay = function() {
-	document.getElementById('overlay').className = "text-center hidden";
+	//document.getElementById('overlay').className = "text-center hidden";
 	return;
 }
 
